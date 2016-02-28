@@ -16,7 +16,7 @@
         echo "Connected successfully<br>";
 
         // sql to create table
-        $sql = "CREATE TABLE POST1 (
+        $sql = "CREATE TABLE POST2 (
         id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(40),
         comment TEXT NOT NULL,
@@ -27,7 +27,7 @@
         down_votes INT(6) UNSIGNED
         )";
         $conn->exec($sql);
-        echo "Table POST1 created successfully<br>";
+        echo "Table POST2 created successfully<br>";
     }
     catch(PDOException $e)
     {

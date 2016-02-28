@@ -90,7 +90,7 @@ function test_input($data) {
 
         <hr align="left" color ="black" style="width:60%; height: 0.1px;"></hr>
 
-        <img src="Yellow_EmperorMicroscope.png" alt="Great Wall" style="border:2px solid black;margin-top: 20px;">
+        <img src="Yellow_EmperorMicroscope.png" alt="The Yellow Emperor and a Microscope" style="border:2px solid black;margin-top: 20px;">
 		<!--Date-->
 		<p>
             Hey world.

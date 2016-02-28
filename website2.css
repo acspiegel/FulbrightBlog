@@ -83,9 +83,19 @@ ul#menu li a:hover{
 	border-color: green;
 }
 
+#postDates{
+    width: 25%;
+}
+
+#postSums{
+    position:  absolute;
+    left:  25%;
+    top: 325px;
+    width: 70%;
+}
+
 div.postDate{
     position: relative;
-    width: 25%;
     height:  150px;
     line-height: 150px;
     margin-top: 60px;
@@ -110,10 +120,9 @@ div.postDate p a:hover{
 }
 
 div.postSum {
-	position: absolute;
-    left: 25%;
-    top: 320px;
-	width: 70%;
+	position: relative;
+    left: 0;
+    top: 0px;
     height: 150px;
 	margin-top: 60px;
 	margin-bottom: 60px;
@@ -283,7 +292,7 @@ div.comment h1, h2{
 #footer{
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 770px){
 #wrapperHeader {
 	width: 800px;
 }
@@ -292,11 +301,11 @@ div.comment h1, h2{
 	width: 800px;
 }
 
-div.postDate{
+#postDates{
     width: 200px;
 }
 
-div.postSum {
+#postSums {
     left: 200px;
 	width: 560px;
 }
